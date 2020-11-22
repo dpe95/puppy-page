@@ -1,108 +1,139 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>First html/css page</title>
+    <meta name="description" content="My first practice website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(202, 173, 191);
+      }
+      h1 {
+        font-size: 50px;
+        color: black;
+        font-family: sans-serif;
+      }
 
-    <head>
-        <title>First html/css page</title>
-        <meta name="description" content="My first practice website">
-        <meta name="viewport"   content="width=device-width, initial-scale=1.0">
-        <style>
-            body{
-                background-color: rgb(202, 173, 191);
-                }
-            h1 {
-                font-size:50px;
-                color: black;
-                font-family: sans-serif;
-                }
+      h2 {
+        font-size: 40px;
+        color: black;
+        font-family: monospace;
+      }
 
-            h2 {
-                font-size: 40px;
-                color: black;
-                font-family: monospace;
-                }
+      h3 {
+        font-size: 30px;
+        font-family: monospace;
+      }
 
-            h3 {
-                font-size: 30px;
-                font-family: monospace;
-                }
+      p {
+        font-size: 20px;
+        font-family: monospace;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-            p {
-                font-size: 20px;
-                font-family: monospace;
-                }
-        </style>
-        <link rel="stylesheet"  type="text/css" href="styles.css">
-    </head>
+  <body>
+    <h1>testing</h1>
+    <h1>Dogs</h1>
 
-    <body>
-        <h1>Dogs</h1>
+    <h2>Why dogs are the best!</h2>
 
-        <h2>Why dogs are the best!</h2>
+    <a href="https://en.wikipedia.org/wiki/Dog">
+      <img
+        src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="Cute puppies"
+      />
+    </a>
 
-        <a href="https://en.wikipedia.org/wiki/Dog">
-        <img 
-            src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt="Cute puppies"
-            >
-        </a>
+    <a href="#important-paragraph">Go to important paragraph</a>
 
-        <a href="#important-paragraph">Go to important paragraph</a>
+    <h3>Their Noses</h3>
 
-        <h3>Their Noses</h3>
+    <p>
+      Dogs have incredibly powerful noses that can smell very faint smells that
+      humans cannot pick up on. This benefits humans as dogs can learn to find
+      drugs and explosives.
+    </p>
 
-        <p>Dogs have incredibly powerful noses that can smell very faint smells that humans cannot pick up on.
-            This benefits humans as dogs can learn to find drugs and explosives.
-        </p>
+    <h3>They're Smart</h3>
 
-        <h3>They're Smart</h3>
+    <p>
+      Dogs can be trained to remember so many different commands. I saw a story
+      about a dog that remembered over 100 different names and the toys
+      associated with those names.
+    </p>
 
-        <p>Dogs can be trained to remember so many different commands.
-            I saw a story about a dog that remembered over 100 different names and the toys associated with those names.</p>
+    <h3>Cute puppy videos</h3>
+    <p>
+      There is nothing cuter than watching puppies stumble around and play rough
+      with each other. You could watch these
+      <a href="https://www.youtube.com/results?search_query=puppy+videos"
+        >videos</a
+      >
+      for hours!
+    </p>
 
-        <h3>Cute puppy videos</h3>
-            <p>
-                There is nothing cuter than watching puppies stumble around and play rough with each other. You could watch these <a href="https://www.youtube.com/results?search_query=puppy+videos">videos</a> for hours!
-            </p>
+    <h3>They're loving</h3>
 
-        <h3>They're loving</h3>
+    <p id="important-paragraph">
+      Dogs will be your bestfriend. They will love you twice as much as you love
+      them
+    </p>
 
-            <p id="important-paragraph">Dogs will be your bestfriend. They will love you twice as much as you love them
-            </p>
-        
-        <h2>Dog likes and disikes</h2>
-            <div>
-                <h3>Likes</h3>
-                    <ul>
-                        <li>playing fetch</li>
-                        <li>chasing other dogs</li>
-                        <li>eating</li>
-                    </ul>
-                <h3>Dislikes</h3>
-                    <ul>
-                        <li>cats</li>
-                        <li>sirens</li>
-                        <li>thunder</li>
-                    </ul>
-            </div>
-        <hr>
-        <p>What is your favorite dog breed?</p>
-        <div>
-            <form>
-                <input type="text" placeholder="Dog breed">
-                <button type="submit">Submit</button>
-                <p>Choose your favorite size of dog</p>
-                <label for="small-dog">
-                    <input id="small-dog" type="radio" value="small-dog" name="dog-size">Small 
-                </label>
-                <label for="medium-dog">
-                    <input id="medium-dog" type="radio" value="medium-dog" name="dog-size">Medium 
-                </label>
-                <label for="Large-dog">
-                    <input id="Large-dog" type="radio" value="Large-dog" name="dog-size">Large 
-                </label>
-                <button type="submit">Submit</button>
-            </form> 
-        </div>
-    </body>
-    
+    <h2>
+      For help finding an adoptable pet visit the
+      <a href="https://www.aspca.org/adopt-pet/find-shelter">ASPCA's website</a
+      >!
+    </h2>
+    <h2>Dog likes and disikes</h2>
+    <div>
+      <h3>Likes</h3>
+      <ul>
+        <li>playing fetch</li>
+        <li>chasing other dogs</li>
+        <li>eating</li>
+      </ul>
+      <h3>Dislikes</h3>
+      <ul>
+        <li>cats</li>
+        <li>sirens</li>
+        <li>thunder</li>
+      </ul>
+    </div>
+    <hr />
+    <p>What is your favorite dog breed?</p>
+    <div>
+      <form>
+        <input type="text" placeholder="Dog breed" />
+        <button type="submit">Submit</button>
+        <p>Choose your favorite size of dog</p>
+        <label for="small-dog">
+          <input
+            id="small-dog"
+            type="radio"
+            value="small-dog"
+            name="dog-size"
+          />Small
+        </label>
+        <label for="medium-dog">
+          <input
+            id="medium-dog"
+            type="radio"
+            value="medium-dog"
+            name="dog-size"
+          />Medium
+        </label>
+        <label for="Large-dog">
+          <input
+            id="Large-dog"
+            type="radio"
+            value="Large-dog"
+            name="dog-size"
+          />Large
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
